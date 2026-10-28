@@ -1,0 +1,23 @@
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE and Editor configurations
+.idea/
+.vscode/
+*.iml
+
+# Java / Spring Boot build artifacts (Maven & Gradle)
+target/
+build/
+*.class
+*.jar
+
+# Node / React dependencies & build
+node_modules/
+dist/
+.env
+.env.local
+
+# Logs
+*.log
