@@ -1,0 +1,18 @@
+spring:
+    application:
+        name: lingodrop-server
+
+    profiles:
+        active: dev
+
+    datasource:
+        url: jdbc:postgresql://localhost:5432/lingodrop_dev
+        username: ${DB_USERNAME:postgres}
+        password: ${DB_PASSWORD}
+        driver-class-name: org.postgresql.Driver
+    jpa:
+        hibernate:
+            ddl-auto: validate
+
+    flyway:
+        enabled: true
